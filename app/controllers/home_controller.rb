@@ -5,11 +5,6 @@ class HomeController < ApplicationController
     for i in 1..100
       @names_hash.merge!("#{i}" => "#{i}")
     end
-
-
-
-
-
   end
 
   def show
